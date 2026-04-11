@@ -7,7 +7,7 @@ import { useGetTopChartsQuery } from "../redux/services/shazamCore";
 import { selectGenreListId, selectPlayerState } from "../redux/features/playerSlice";
 import { normalizedSong } from "../utils/normalizeSong";
 
-
+ 
 const DiscoverSongs = () => {
  
     const dispatch = useDispatch();
