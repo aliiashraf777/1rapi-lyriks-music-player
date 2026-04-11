@@ -11,7 +11,7 @@
 //     genreNames,
 //     name,
 //     playParams: { id: playParamId, kind: playParamKind },
-//     previews: [{ url: previewUrl } = {}] = [],
+//     previews: [{ url: previewUrl } = {}] = [], 
 //     releaseData,
 //     url: albumUrl,
 //   },
