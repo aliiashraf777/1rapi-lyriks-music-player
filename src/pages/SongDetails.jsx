@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import { playPause, selectPlayerState, setActiveSong } from '../redux/features/playerSlice';
 import { DetailsHeader, Error, Loader, RelatedSongs } from '../components';
 import { useGetSongRelatedQuery, useGetSongsDetailsQuery } from '../redux/services/shazamCore';
-
+ 
 const SongDetails = () => {
 
     const { songid } = useParams();
