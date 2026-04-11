@@ -2,7 +2,7 @@ import { FiSearch } from 'react-icons/fi'
 import { selectGenreListId } from '../redux/features/playerSlice'
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-
+ 
 const Search = () => {
 
   const navigate = useNavigate();
